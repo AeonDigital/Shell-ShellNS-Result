@@ -1,0 +1,12 @@
+Prints the result of the last recorded execution on the screen.
+
+@param ?int $1
+Number of the stored result that should be returned.  
+If it is not informed, it will take the first amount recorded.
+
+If the value entered is invalid, it will not print anything and return the
+value status of 255.
+
+@return status+?string
+Returns the last registered status code and prints the return value, if it
+exists and if it is different from "".

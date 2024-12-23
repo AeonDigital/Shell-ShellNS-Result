@@ -1,0 +1,3 @@
+Restarts the run information array.
+
+@return void

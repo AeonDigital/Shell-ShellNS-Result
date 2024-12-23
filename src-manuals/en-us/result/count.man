@@ -1,0 +1,4 @@
+Prints on the screen the number of values currently recorded in
+**SHELLNS_RESULT_RETURN**.
+
+@return int

@@ -1,0 +1,20 @@
+Saves the result of the execution of a function or procedure.
+
+@param string $1
+::
+  - default : "-"
+::
+Name of the function performed.
+
+@param ?int $2
+::
+  - default : "0"
+::
+Function output status.  
+If it is not an integer, it will use **1**.
+
+@param ?string $3...
+All parameters from this position onwards refer to values returned by the
+executed function.
+
+@return void
